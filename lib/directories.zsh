@@ -27,8 +27,10 @@ alias d='dirs -v | head -10'
 alias lsa='ls -lah'
 alias l='ls -lah'
 alias ll='ls -lh'
-alias la='ls -lAh'
+alias la='ls -A'
 
 # Push and pop directories on directory stack
 alias pu='pushd'
 alias po='popd'
+
+alias cl='clear'
