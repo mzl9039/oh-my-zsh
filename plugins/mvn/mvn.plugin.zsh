@@ -62,6 +62,7 @@ alias mvndt='mvn dependency:tree'
 alias mvns='mvn site'
 alias mvnsrc='mvn dependency:sources'
 alias mvndocs='mvn dependency:resolve -Dclassifier=javadoc'
+alias mvncpj='mvn clean package jetty:run'
 
 function listMavenCompletions { 
      reply=(
